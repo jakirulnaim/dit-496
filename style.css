@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: 0;
+    outline: 0;
+}
+    
+    h1, label{
+    color:blue;
+}
+input{
+    color: green;
+}
+
+h1::first-letter{
+    color:red;
+}
+input::placeholder{
+    color:rgb(131, 137, 221);
+}
+
+h1{
+    border: 2px solid red;
+    border-radius: 5px;
+}
